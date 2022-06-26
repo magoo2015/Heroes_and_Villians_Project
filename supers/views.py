@@ -10,7 +10,7 @@ def supers_list(request):
     if request.method == 'GET':
 
         super_name = request.query_params.get('super_type')
-        print(super_name)
+        #print(super_name)
 
         supers = Super.objects.all()
 
